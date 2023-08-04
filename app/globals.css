@@ -16,12 +16,10 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.quota::after{
+  content:url(../public/images/bg-pattern-quotation.svg);
+  z-index: 5;
+  position:absolute;
+  top: 0;
+  right:calc(5% + 5vw);
 }
