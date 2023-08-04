@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import  Articles  from "@/utils/articles";
+
 const styles=[{
 backgroundColor: "bg-[#7541c8]",
     textColor: "text-white",

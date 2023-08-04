@@ -1,6 +1,5 @@
 import Image from "next/image";
-
-const Card = ({ article, styles }) => {
+const Card = ({ article, styles }: any) => {
   const quotation = article.name === "Daniel Clifford" ? " quota " : "";
   return (
     <section
@@ -25,5 +24,4 @@ const Card = ({ article, styles }) => {
     </section>
   );
 };
-
 export default Card;
